@@ -7,6 +7,11 @@ body{
 }
 h1,p{
   text-align:center;
+  font-weight: 800;
+  
+}
+h1{
+  text-transform: uppercase;
 }
 
 label{
@@ -16,16 +21,21 @@ label{
 input,textarea,select{
     width:100%;
     margin-top:10px;
+    border-radius: 5px;
+    padding:6px;
+    font-size:medium;
     
     
+}
+textarea{
+  height: 150px;
+  font-size: 1.2rem;
 }
 select{
   padding:6px;
   
 }
-input{
-  padding:6px;
-}
+
 input[type="radio"]{
   width:unset;
 }
@@ -37,7 +47,7 @@ input[type="checkbox"]{
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  background-color: black;
+  background-color: rgb(24, 19, 31);
   color:white;
   padding:15px;
   border-radius:6px;
@@ -49,12 +59,13 @@ fieldset{
 }
 #submit{
   display: block;
-  width:30%;
+  width:20%;
   margin:2rem auto;
-  padding:5px;
+  padding:15px;
   border-radius:5px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight:600;
+  
   
 }
 #submit:hover{
